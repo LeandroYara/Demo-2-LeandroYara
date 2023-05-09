@@ -857,10 +857,6 @@
       <Project>{41B87414-9167-8E32-81B9-D069ABE0BAB4}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.MetaGazeAdapter.csproj">
-      <Project>{04EAC1B9-E265-D841-F946-3A37D6AA4AA9}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.MetaGazeAdapter</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj">
       <Project>{B49157DD-2E15-D5D2-543C-9DA76A1B465E}</Project>
       <Name>Unity.XR.Hands.Samples.VisualizerSample</Name>
@@ -872,10 +868,6 @@
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj">
       <Project>{7DAC164E-CACC-C05A-B484-705E39382DA1}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.Hands</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.MetaGazeAdapter.Editor.csproj">
-      <Project>{D20175AC-EF3F-17E2-36DC-8A461A7DFE3A}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.MetaGazeAdapter.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
