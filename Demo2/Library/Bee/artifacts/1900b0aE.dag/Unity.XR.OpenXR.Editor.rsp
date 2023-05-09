@@ -117,7 +117,12 @@
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:XR_MGMT_3_2_0_OR_NEWER
+-define:PROJECT_VALIDATION_AVAILABLE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
@@ -343,6 +348,7 @@
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.ref.dll"
@@ -352,25 +358,25 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/BuildHelperUtils.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/BuildTargetSupport/UWPCoreWindowBuildHooks.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/FeatureSupport/FeatureHelpers.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/FeatureSupport/KnownFeatureSets.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/FeatureSupport/OpenXRChooseRuntimeLibraries.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/FeatureSupport/OpenXRFeatureBuildHooks.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/FeatureSupport/OpenXRFeatureEditor.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/FeatureSupport/OpenXRFeatureSetAttribute.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/FeatureSupport/OpenXRFeatureSettingsEditor.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/FeatureSupport/OpenXRFeatureUICommon.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/FeatureSupport/OpenXRLoaderUI.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRBuildProcessor.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXREditorSettings.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRMangementSettings.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRPackageSettings.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRProjectValidationRulesSetup.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRRuntimeSelector.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/PackageSettingsEditor.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/BuildHelperUtils.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/BuildTargetSupport/UWPCoreWindowBuildHooks.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/FeatureSupport/FeatureHelpers.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/FeatureSupport/KnownFeatureSets.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/FeatureSupport/OpenXRChooseRuntimeLibraries.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/FeatureSupport/OpenXRFeatureBuildHooks.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/FeatureSupport/OpenXRFeatureEditor.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/FeatureSupport/OpenXRFeatureSetAttribute.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/FeatureSupport/OpenXRFeatureSettingsEditor.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/FeatureSupport/OpenXRFeatureUICommon.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/FeatureSupport/OpenXRLoaderUI.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/OpenXRBuildProcessor.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/OpenXREditorSettings.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/OpenXRMangementSettings.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/OpenXRPackageSettings.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/OpenXRProjectValidationRulesSetup.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/OpenXRRuntimeSelector.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.7.0/Editor/PackageSettingsEditor.cs"
 -langversion:9.0
 
 /deterministic
